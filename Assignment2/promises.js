@@ -33,7 +33,6 @@ function getUserData(userId) {
 // Valid user ID
 console.log("Test Promises");
 console.log("-------------");
-console.log("With valid user ID:");
 getUserData("userId1")
   .then((data) => { // The then() method returns a Promise. 
                     // It takes up to two arguments: callback functions for the success 
@@ -45,8 +44,6 @@ getUserData("userId1")
   });
 
 // Invalid user ID
-console.log("-------------");
-console.log("With invalid user ID:");
 getUserData("userId3")
   .then((data) => {
     console.log("User Data:", data);

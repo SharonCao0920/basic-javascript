@@ -11,9 +11,9 @@ Source: https://www.w3schools.com/js/js_callback.asp
 
 // User data
 const userDataDB = {
-    userId1: { name: "Sharon Cao", email: "ycao@student.sfbu.edu" },
-    userId2: { name: "Hegel Cao", email: "hegel@example.com" },
-  };
+  userId1: { name: "Sharon Cao", email: "ycao@student.sfbu.edu" },
+  userId2: { name: "Hegel Cao", email: "hegel@example.com" },
+};
   
   // Function to fetch user data asynchronously
   function getUserData(userId, callback) { // Callback function as an argument
