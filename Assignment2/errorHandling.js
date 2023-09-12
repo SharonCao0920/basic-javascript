@@ -13,7 +13,7 @@ function getUserData(userId) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (userId < 0) {
-        reject("Invalid user ID"); // Throw an error for negative user IDs
+        reject("Invalid user ID: User ID must be a positive number"); // Throw an error for negative user IDs
       } else if (userDataDB[userId]) {
         resolve(userDataDB[userId]);
       } else {
@@ -29,5 +29,5 @@ getUserData(-1) // Negative user ID
     console.log("User Data:", data);
   })
   .catch((err) => {
-    console.error("Error:", err); // Custom error message for negative user ID
+    console.error("Error:\n", err); // Custom error message for negative user ID
   });
