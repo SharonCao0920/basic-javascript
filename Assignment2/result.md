@@ -8,7 +8,7 @@
 
 
 ### Error Handling
-![image](https://github.com/SharonCao0920/basic-javascript/assets/54694766/3e342135-9d3e-408a-bad4-e69958fad87d)
+![image](https://github.com/SharonCao0920/basic-javascript/assets/54694766/fb39ed57-4173-478b-9d32-87fd71230c86)
 
 
 ### Asyn/Await
