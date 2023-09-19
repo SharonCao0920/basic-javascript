@@ -34,6 +34,18 @@ app.get('/startup', (req, res) => {
     }
 });
 
+// GET Route with custom headers
+
+app.get('/set-header', (req, res) => {
+
+    // Set custom response headers
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Custom-Header', 'Hello from GET route');
+   
+    // Send a JSON response
+    res.send({ message: 'This is a GET request' });
+});
+
 // server listening on port 8080
 server.listen(port, () => {
     console.log('HTTPS is running on port ' + port + '')
