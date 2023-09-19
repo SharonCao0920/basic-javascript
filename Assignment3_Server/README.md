@@ -127,4 +127,4 @@ https://api.example.com/matrix;param1=value1;param2=value2
 Matrix parameters are included in the URL path after a semicolon. They are less common but used in some RESTful APIs for specific purposes.
 
 
-These examples illustrate various ways to include parameters in API requests, depending on the type of parameter and the API's requirements. The specific parameter names and values will vary based on the API's documentation and use case.
+***These examples illustrate various ways to include parameters in API requests, depending on the type of parameter and the API's requirements. The specific parameter names and values will vary based on the API's documentation and use case.***
