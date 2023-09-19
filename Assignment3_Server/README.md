@@ -31,3 +31,10 @@ In Express, you manipulate headers using the response object for sending respons
 
 ## Results 
 
+![Screenshot 2023-09-18 212217](https://github.com/SharonCao0920/basic-javascript/assets/54694766/78c3d15e-82e0-4ae1-b4a9-bb155be8d988)
+
+![Screenshot 2023-09-18 212229](https://github.com/SharonCao0920/basic-javascript/assets/54694766/d11a794a-8054-4476-9026-bfdaf838fdc1)
+
+![Screenshot 2023-09-18 212253](https://github.com/SharonCao0920/basic-javascript/assets/54694766/f9924abf-8f39-440a-8039-de776c8b426f)
+
+![Screenshot 2023-09-18 213114](https://github.com/SharonCao0920/basic-javascript/assets/54694766/d68d4f31-61c2-4d21-a7e9-51a57a558389)
