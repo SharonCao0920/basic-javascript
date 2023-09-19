@@ -38,3 +38,93 @@ In Express, you manipulate headers using the response object for sending respons
 ![Screenshot 2023-09-18 212253](https://github.com/SharonCao0920/basic-javascript/assets/54694766/f9924abf-8f39-440a-8039-de776c8b426f)
 
 ![Screenshot 2023-09-18 213114](https://github.com/SharonCao0920/basic-javascript/assets/54694766/d68d4f31-61c2-4d21-a7e9-51a57a558389)
+
+
+# API Parameters
+
+## Query Parameters:
+
+**Example URL:** 
+
+https://api.example.com/products?category=electronics&sort=price
+
+**Explanation:** 
+
+In this example, the query parameters are category and sort. They are included in the URL's query string and are used to filter products by category ("electronics") and sort the results by price.
+
+## Path Parameters:
+
+**Example URL:** 
+
+https://api.example.com/users/123
+
+**Explanation:** 
+
+In this URL, 123 is a path parameter denoting the user's ID. It is included in the URL path and is used to identify a specific user resource (user with ID 123).
+
+## Header Parameters:
+
+**Example Authorization Header:**
+
+```
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```
+
+**Explanation:** 
+
+The "Authorization" header is commonly used to send authentication tokens or API keys. In this example, it includes a JSON Web Token (JWT) as a bearer token for authentication.
+
+## Request Body Parameters:
+
+**Example POST Request:**
+```
+{
+  POST https://api.example.com/users
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+
+**Explanation:** 
+
+In this POST request, JSON data is included in the request body. The parameters name and email are used to create a new user resource with the provided information.
+
+## Cookie Parameters:
+
+**Example Cookie Header:**
+```
+Cookie: sessionID=abc123; userRole=admin
+```
+
+**Explanation:** 
+
+API parameters can be included as cookies in the HTTP request. In this example, the cookies "sessionID" and "userRole" are sent with the request.
+
+## Form Data Parameters:
+
+**Example POST Request with Form Data:**
+bash
+```
+POST https://api.example.com/submit-form
+Content-Type: application/x-www-form-urlencoded
+
+name=John+Doe&email=john%40example.com
+```
+
+**Explanation:** 
+
+Form data parameters are included in the request body as URL-encoded data. In this example, the parameters name and email are sent as form fields.
+
+## Matrix Parameters: (Note: Less common and not supported in all APIs)
+
+**Example URL:**
+
+https://api.example.com/matrix;param1=value1;param2=value2
+
+
+**Explanation:** 
+
+Matrix parameters are included in the URL path after a semicolon. They are less common but used in some RESTful APIs for specific purposes.
+
+
+These examples illustrate various ways to include parameters in API requests, depending on the type of parameter and the API's requirements. The specific parameter names and values will vary based on the API's documentation and use case.
